@@ -112,6 +112,7 @@ void Run()
         previous.push_back(temp);
     }
     Draw();
+    previous[screenWidth / gridSize / 2][screenHeight / gridSize / 2] = maxSand;
     while (gameLoop)
     {   
         Draw();
